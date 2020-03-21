@@ -1,184 +1,111 @@
-body {
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+  padding: 0;
 }
 
-a {
-  text-decoration: none;
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+li {
+  list-style: none;
 }
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
+/* ここからCSSを記述してください */
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 0px;
 }
 
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
 }
 
-.top-wrapper p {
-  opacity: 0.7;
-}
-
-.btn-wrapper {
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
+.header-list {
   float: left;
 }
 
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+.main {
+  padding: 100px 80px;
 }
 
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
+.copy-container h1 {
+  font-size: 140px;
 }
 
-.lesson-wrapper {
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
   height: 500px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
-  text-align: center;
+  margin-top: 100px;
 }
 
-.heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
 }
 
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
+.contents-item {
   float: left;
-  width: 25%;
+  margin-right: 40px;
 }
 
-.lesson-icon {
-  position: relative;
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
 }
 
-.lesson-icon p {
-  position: absolute;
-  top: 90px;
-  width: 100%;
-  color: white;
-}
-
-.txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 12px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-/* <footer>の中の<img>のCSSを指定してください */
-footer img{
-  width:125px;
+.contact-form {
+  padding-top: 100px;
 }
 
 
-/* <footer>の中の<p>のCSSを指定してください */
-footer p{
-  color:#b3aeb5;
-  font-size:12px;
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
 }
 
-
-/* <footer>のCSSを指定してください */
-footer {
-  padding-top:30px;
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  padding: 40px;
+  height: 120px;
 }
 
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li{
+  padding-bottom: 20px;
+}
+
+td {
+  height: 20px;
+}
