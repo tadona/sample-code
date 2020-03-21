@@ -62,7 +62,7 @@
   <head>
     <meta charset="utf-8">
     <title>シフト作成</title>
-    <!--<link rel="stylesheet" href="stylesheet.css">-->
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
   <div class="mai">
